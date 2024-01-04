@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="backgroundAudio" loop>
+      <source src="./audio/audio.mp3" type="audio/mp3" />
+    </audio>
+
+    <div class="image-container">
+      <span style="--i: 1"
+        ><img src="https://picsum.photos/id/256/300/200" alt=""
+      /></span>
+      <span style="--i: 2"
+        ><img src="https://picsum.photos/id/276/300/200" alt=""
+      /></span>
+      <span style="--i: 3"
+        ><img src="https://picsum.photos/id/236/300/200" alt=""
+      /></span>
+      <span style="--i: 4"
+        ><img src="https://picsum.photos/id/216/300/200" alt=""
+      /></span>
+      <span style="--i: 5"
+        ><img src="https://picsum.photos/id/296/300/200" alt=""
+      /></span>
+      <span style="--i: 6"
+        ><img src="https://picsum.photos/id/266/300/200" alt=""
+      /></span>
+      <span style="--i: 7"
+        ><img src="https://picsum.photos/id/253/300/200" alt=""
+      /></span>
+      <span style="--i: 8"
+        ><img src="https://picsum.photos/id/634/300/200" alt=""
+      /></span>
+      <span style="--i: 9"
+        ><img src="https://picsum.photos/id/221/300/200" alt=""
+      /></span>
+      <span style="--i: 10"
+        ><img src="https://picsum.photos/id/375/300/200" alt=""
+      /></span>
+    </div>
+
+    <div class="btn-container">
+      <button class="btn" id="prev">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-arrow-big-left-dash"
+        >
+          <path d="M19 15V9" />
+          <path d="M15 15h-3v4l-7-7 7-7v4h3v6z" />
+        </svg>
+      </button>
+      <button class="btn" id="next">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.25"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-arrow-big-right-dash"
+        >
+          <path d="M5 9v6" />
+          <path d="M9 9h3V5l7 7-7 7v-4H9V9z" />
+        </svg>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
